@@ -1,3 +1,7 @@
+# This Project has been build and tested on Linux Ubuntu 20.04
+
+
+
 # 1 create virtual environment for developement
 python3 -m venv match-maker-env
 
@@ -19,5 +23,14 @@ source match-maker-env/bin/activate
 # 7 Run the tests:
     pytest
 
+# 8 Open Below URL in browser to TEST API listed there
+
+http://127.0.0.1:8000/docs#/
+
+
+
 # 3 deactivate virtual environment after testing completed and server stopped
 deactivate
+
+
+![alt text](<Screenshot from 2025-03-01 15-30-40.png>)
